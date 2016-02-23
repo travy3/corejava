@@ -1,6 +1,7 @@
 package com.zyu.corejava.thread;
 
 import java.util.ArrayList;
+import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -12,6 +13,8 @@ public class ThreadTestDemo4 {
     private ArrayList<Integer> arrayList = new ArrayList<Integer>();
 
     private Lock lock = new ReentrantLock();
+
+    private Condition condition = lock.newCondition();
 
     public static void main(String[] args){
 
@@ -39,7 +42,6 @@ public class ThreadTestDemo4 {
 
         try {
             System.out.println(thread.getName()+"得到了锁");
-
             for (int i = 0; i < 5; i++) {
                 arrayList.add(i);
             }

@@ -17,7 +17,6 @@ public class FileTest {
 
         File file = new File("H:"+ File.separator+ "LOLCfg.ini");
         File file1 = new File("H:"+File.separator+"qweasd.txt");
-
         try {
             FileInputStream inputStream = new FileInputStream(file);
             final FileChannel channel = inputStream.getChannel();
