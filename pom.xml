@@ -16,13 +16,19 @@
       <name>Oschina Releases</name>
       <url>http://maven.oschina.net/content/groups/public</url>
     </repository>
+    <repository>
+      <id>zookeeper</id>
+      <name>zookeeper Repository</name>
+      <url> https://mvnrepository.com/artifact/org.apache.zookeeper/zookeeper</url>
+    </repository>
   </repositories>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
-  <dependencies>
+  <!--<dependencyManagement>-->
+    <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -48,8 +54,15 @@
       <version>1.7.13</version>
     </dependency>
 
+    <dependency>
+      <groupId>org.apache.zookeeper</groupId>
+      <artifactId>zookeeper</artifactId>
+      <version>3.4.6</version>
+      <!--<type>pom</type>-->
+      <!--<scope>import</scope>-->
+    </dependency>
 
-
-  </dependencies>
+    </dependencies>
+  <!--</dependencyManagement>-->
 
 </project>
