@@ -16,39 +16,12 @@ hs_err_pid*
 ### Example user template
 
 # IntelliJ project files
-.idea
+.idea/
 *.iml
 out
 gen
-.gitignore
 .idea/.name
-.idea/compiler.xml
-.idea/copyright/
-.idea/corejava.iml
 .idea/dictionaries/
-.idea/encodings.xml
-.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml
-.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml
-.idea/libraries/Maven__commons_net_commons_net_3_1.xml
-.idea/libraries/Maven__javax_jms_jms_1_1.xml
-.idea/libraries/Maven__junit_junit_3_8_1.xml
-.idea/libraries/Maven__org_apache_activemq_activemq_core_5_7_0.xml
-.idea/libraries/Maven__org_apache_activemq_kahadb_5_7_0.xml
-.idea/libraries/Maven__org_apache_activemq_protobuf_activemq_protobuf_1_1.xml
-.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_j2ee_management_1_1_spec_1_0_1.xml
-.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jms_1_1_spec_1_1_1.xml
-.idea/libraries/Maven__org_fusesource_hawtbuf_hawtbuf_1_9.xml
-.idea/libraries/Maven__org_fusesource_hawtdispatch_hawtdispatch_1_11.xml
-.idea/libraries/Maven__org_fusesource_hawtdispatch_hawtdispatch_transport_1_11.xml
-.idea/libraries/Maven__org_fusesource_mqtt_client_mqtt_client_1_3.xml
-.idea/libraries/Maven__org_jasypt_jasypt_1_9_0.xml
-.idea/libraries/Maven__org_springframework_spring_aop_3_0_7_RELEASE.xml
-.idea/libraries/Maven__org_springframework_spring_asm_3_0_7_RELEASE.xml
-.idea/libraries/Maven__org_springframework_spring_beans_3_0_7_RELEASE.xml
-.idea/libraries/Maven__org_springframework_spring_context_3_0_7_RELEASE.xml
-.idea/libraries/Maven__org_springframework_spring_core_3_0_7_RELEASE.xml
-.idea/libraries/Maven__org_springframework_spring_expression_3_0_7_RELEASE.xml
-.idea/misc.xml
-.idea/modules.xml
-.idea/workspace.xml
+
 target/
+
