@@ -20,7 +20,7 @@ public class ZkServer {
         }
 
         String host = args[0];
-        int port = Integer.parseInt(host);
+        int port = Integer.parseInt(args[1]);
 
         ServiceProvider serviceProvider = new ServiceProvider();
         try {

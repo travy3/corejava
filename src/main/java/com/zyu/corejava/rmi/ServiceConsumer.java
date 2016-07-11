@@ -13,7 +13,6 @@ import java.rmi.Naming;
 import java.rmi.Remote;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 import java.util.concurrent.CountDownLatch;
 
 /**
@@ -50,8 +49,7 @@ public class ServiceConsumer {
                 url = urlList.get(0);// 若 urlList 中只有一个元素，则直接获取该元素
                 logger.debug("using only url：{}",url);
             }else {
-                Random random = new Random(size);
-                url = urlList.get(random.nextInt());
+                url = urlList.get((int) (Math.random()*(size)));
                 logger.debug("using random url：{}",url);
             }
             service = lookupService(url);
